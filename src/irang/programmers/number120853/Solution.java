@@ -1,6 +1,4 @@
-package irang.programmers.control_z;
-
-// https://school.programmers.co.kr/learn/courses/30/lessons/120853
+package irang.programmers.number120853;
 
 import java.util.Stack;
 
