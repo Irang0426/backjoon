@@ -8,8 +8,7 @@ public class Main {
         // 그리디 알고리즘
 
         Scanner sc = new Scanner(System.in);
-        int pay = Integer.parseInt(sc.nextLine());
-        int money = 1000 - pay;
+        int money = 1000 - sc.nextInt();;
         int[] changes = {500, 100, 50, 10, 5, 1};
 
         int count = 0;
