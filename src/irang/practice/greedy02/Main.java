@@ -1,4 +1,4 @@
-package irang.practice.practice2;
+package irang.practice.greedy02;
 
 /*
 3 3

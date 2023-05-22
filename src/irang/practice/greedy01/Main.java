@@ -1,4 +1,4 @@
-package irang.practice.practice1;
+package irang.practice.greedy01;
 
 import java.io.IOException;
 import java.util.Arrays;
