@@ -1,4 +1,4 @@
-package irang.practice.greedy03;
+package irang.practice.greedy.greedy03;
 
 /*
 그리디 알고리즘
