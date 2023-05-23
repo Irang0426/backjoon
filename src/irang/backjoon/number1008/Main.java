@@ -1,14 +1,12 @@
 package irang.backjoon.number1008;
 
-import java.util.Scanner;
+import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) {
-        int a, b;
-        Scanner sc = new Scanner(System.in);
-        a = sc.nextInt();
-        b = sc.nextInt();
-        double c = (double) a / b;
-        System.out.println(c);
+    public static void main(String[] args) throws IOException {
+        double a = System.in.read() - '0';
+        System.in.read();
+        double b = System.in.read() - '0';
+        System.out.println(a / b);
     }
 }
