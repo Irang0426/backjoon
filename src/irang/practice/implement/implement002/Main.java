@@ -11,11 +11,11 @@ public class Main {
 
         long start = System.nanoTime();
 
-        int sm = 60;
+        int ms = 60;
         int hCount = 0;
         int count = 0;
 
-        for (int i = 0; i < sm; i++) {
+        for (int i = 0; i < ms; i++) {
             if (i / 10 == 3 || i % 10 == 3) {
                 count++;
             }
@@ -27,7 +27,10 @@ public class Main {
             }
         }
 
-        int result = count * (sm * 2 - count) * (h - hCount) + (hCount * 3600);
+        int ms_not = 60 - count;
+        int h_not = h - hCount;
+
+        int result = h * ms * ms - (h_not * ms_not * ms_not);
 
         long end = System.nanoTime();
 
