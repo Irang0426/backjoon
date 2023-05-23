@@ -1,4 +1,4 @@
-package irang.practice.implement.implement001;
+package irang.practice.implementation.implementation001;
 
 /*
 5

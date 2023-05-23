@@ -1,4 +1,4 @@
-package irang.practice.implement.implement002;
+package irang.practice.implementation.implementation002;
 
 import java.io.BufferedReader;
 import java.io.IOException;
