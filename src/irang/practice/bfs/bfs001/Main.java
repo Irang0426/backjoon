@@ -12,12 +12,12 @@ public class Main {
         visited[v] = true;
         queue.add(v);
 
-        while(!queue.isEmpty()) {
+        while (!queue.isEmpty()) {
             v = queue.poll();
             System.out.print(v + " ");
 
             for (int node : graph[v]) {
-                if(!visited[node]) {
+                if (!visited[node]) {
                     visited[node] = true;
                     queue.add(node);
                 }
